@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(221, 221, 221);
+}
+header {
+    width: 100vw;
+    height: 16rem;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+header button{
+    width:100px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header button:first-child{
+    background-color: green;
+}
